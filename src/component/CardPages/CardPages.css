@@ -1,0 +1,69 @@
+.CardPags{
+display: flex;
+flex-wrap: wrap;
+gap: 50px;
+
+}
+.contpgs{
+    display: flex;
+    flex-direction: column;
+    width: 613px;
+height: 282px;
+gap: 50px;
+
+}
+
+.CardPages{
+    display: flex;
+    flex-direction: column;
+    width: 773px;
+height: 588px;
+gap: 80px;
+border-radius: 12px;
+border: 2px solid var(--black);
+padding: 80px;
+box-shadow: 6px 6px 0px 2px #1E1E1E;
+}
+.btnpgs{
+    width: 613px;
+height: 66px;
+gap: 10px;
+border-radius: 10px;
+border: 2px solid var(--black);
+background-color: var(--PeachBlushLight);
+box-shadow: 4px 4px 0px 2px #1E1E1E;
+
+padding-top: 18px;
+padding-bottom: 18px;
+
+}
+.sipgti{
+    font-family: Raleway;
+font-weight: 700px;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+}
+.texpg{
+    font-family: Outfit;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Parcontpgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;}
+    .ParghrafPag{
+        font-family: Outfit;
+font-weight: 500px;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+
+    }

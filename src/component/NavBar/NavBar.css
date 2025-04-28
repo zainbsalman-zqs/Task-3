@@ -1,0 +1,212 @@
+nav{
+    width: 94.7395%;
+    height: 80px;
+    background-color: var(--white);
+    /* margin: 50px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: fixed;
+    border: 2px solid var(--black);
+    border-radius: 12px;
+    left: 50%;
+transform: translate(-50%);   
+z-index: 99999999;
+}
+.logo{
+    font-family: Outfit; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-right: 2px solid var(--black);
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    background-color: var(--Orange);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.c
+{
+    display: flex;
+    border-left: 2px solid var(--black);
+
+
+}
+.x{
+    display: flex;
+    list-style: none;
+   
+
+}
+.z{
+    display: flex; 
+    align-items: center;
+    border-right: 2px solid var(--black);
+    padding-top: 20px;
+    padding-right: 34px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    gap: 10px;
+a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: Outfit;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+
+}
+.btnnav{
+    display: flex; 
+    align-items: center;
+  padding: 20px  34px;
+    background-color: var(--Orange);
+    border:var(--black);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Outfit; 
+color: var(--black);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.menu{
+    display: none;
+}
+@media (max-width: 1440px){
+    nav{
+        width: 92.9861%;
+        height: 66px;
+        font-family: Outfit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0%;
+justify-content: space-between;
+border-radius: 8px;
+border-width: 2px;
+        }
+        .z{
+        padding-top: 16px !important;
+        padding-right: 30px !important;
+        padding-bottom: 16px !important;;
+        padding-left: 30px !important;;
+a{
+    font-size: 16px;
+}
+        }
+        .logo{
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            h1{
+                font-size: 16px;
+            }
+            img{
+                width: 28.33px;
+            height: 28.33px;
+            
+            
+            }
+        }
+        .btnnav{
+         font-size:16px;
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
+        }
+        
+    }
+    @media (max-width: 1236px ){
+        nav{
+           
+    h1{
+        font-size: 16px;
+    }
+    img{
+        width: 25px;
+        height:25px;
+    
+    }
+            }
+            .z{
+            padding-top: 12px !important;
+            padding-right: 24px !important;
+            padding-bottom: 12px !important;;
+            padding-left: 24px !important;;
+    a{
+        font-size: 14px;
+    }
+            }
+         
+            
+        }
+        @media (max-width: 992px ){
+            .btnnav{
+                display: none;
+            }
+            .c{
+                border-left:none
+            }
+.x {
+    display: none;
+    flex-direction: column;
+    background-color: var(--PeachCream);
+    position: absolute;
+    top: 64px;
+    right: 0;
+    z-index: 99;
+    padding: 20px;
+    border-bottom: 2px solid var(--black);
+    gap: 10px;
+  }
+
+  .x.open {
+    display: flex;
+  }
+
+            .menu{
+    display: block;
+    width: 88px;
+height: 62px;
+gap: 10px;
+background-color: var( --PeachCream);
+border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
+padding-top: 16px;
+padding-right: 30px;
+padding-bottom: 16px;
+padding-left: 30px;
+border-left: 2px solid var(--black);
+}
+.btnmenu{
+    width: 28px !important;
+        height: 28px !important;
+        border: none !important;
+        background-color: var( --PeachCream) !important;  
+        img{
+            width: 21px;
+        height: 14px;
+        background-color: var( --PeachCream);
+        } 
+}
+.logo{
+   
+height: 62px;
+gap: 10px;
+
+padding-top: 16px;
+padding-right: 20px;
+padding-bottom: 16px;
+padding-left: 20px;
+
+}
+        }
+    

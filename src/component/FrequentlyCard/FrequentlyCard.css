@@ -1,0 +1,127 @@
+.FqCard{
+    display: flex;
+    /* flex-wrap: wrap;
+    width:100%;
+    align-items: flex-start; */
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+
+
+
+}
+.title-container{
+  display: flex;
+  width: 621px;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-container.open{
+  display: flex;
+  flex-direction: column;
+  width: 621px;
+height: 171px;
+gap: 24px;
+
+}
+.conterfq {
+  display: flex;
+  width: 621px;
+gap: 24px;
+}
+.textfq{
+  font-family: Outfit;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 150%;
+  
+
+}
+.FqCards {
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+  border-radius: 12px;
+  border: 2px solid var(--black);
+  background-color: var(--white);
+  padding-top: 34px;
+  padding-right: 40px;
+  padding-bottom: 34px;
+  padding-left: 40px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px; /* ترتيب العناصر عموديًا في العمود */
+}
+.conimgfq{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 40px;
+  width: 40px;
+height: 40px;
+gap: 10px;
+border-radius: 6px;
+border: 2px solid var(--black);
+background-color: var( --PeachLight);
+padding: 8px;
+
+
+}
+.sizefq{
+  font-family: Outfit;
+  font-weight: 600px;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  
+}
+.linefq{
+  width: 621px !important;
+  border: 2px solid var(--black);
+
+  
+}
+
+.FqCards.open .faq-text {
+    display: block;
+  }
+
+.FqCards.open{
+
+gap: 30px;
+border-radius: 12px;
+border: 2px solid var(--black);
+padding: 40px;
+
+}
+@media(max-width : 1656px){
+  .FqCards{
+width: 620px;
+padding-top: 24px;
+padding-right: 30px;
+padding-bottom: 24px;
+padding-left: 30px;
+gap: 24px;
+
+  }
+  .sizefq{
+    font-size: 18px;
+  }
+}
+@media(max-width :1344px){
+  .FqCards{
+    width: 620px;
+    padding-top: 24px;
+    padding-right: 30px;
+    padding-bottom: 24px;
+    padding-left: 30px;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+      }
+
+}
