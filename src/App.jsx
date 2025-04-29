@@ -12,6 +12,8 @@ import TopBanner from "./component/Top Banner/TopBanner";
 import Hero from "./component/Hero/Hero";
 import OurBenefits from "./component/OurBenefits/OurBenefits";
 import Frequently from "./component/Frequently/Frequently ";
+import Navigate from "./component/Navigate/Navigate";
+import Testimonials from "./component/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
       />
       <Hero />
       <OurBenefits/>
+      <Testimonials/>
       <Frequently/>
+      <Navigate/>
       <Footer logo={logo}
       title="Little Learners"
         text="We believe in the power of play to foster creativity, problem-solving skills, and imagination."
@@ -76,7 +80,7 @@ function App() {
       ]}
       Copyright=" Copyright © [2023] Little Learners Academy. All rights reserved."
        />
-       {/* <CardPages/> */}
+
    
     </>
   );

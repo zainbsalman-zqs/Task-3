@@ -31,7 +31,8 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.icon2 {
+.icon2,
+.conben {
   font-family: Outfit;
   font-weight: 500;
   font-size: 20px;
@@ -53,9 +54,8 @@
 .Group3,
 .benres2,
 .AbstractDesignLeft,
-.AbstractDesign ,
-.Group4
- {
+.AbstractDesign,
+.Group4 {
   display: none;
 }
 @media (max-width: 1778px) {
@@ -71,6 +71,9 @@
   .leftbnner {
     display: none;
   }
+  .conben{
+    border: none;
+  } 
   .benres {
     height: 55px;
     position: absolute;
@@ -127,16 +130,16 @@
   }
 }
 @media (max-width: 1107px) {
-    .Group4{
-        display: block;
-        position: absolute;
-        z-index: 9;
-        bottom: 0;
-        right: 1px;
-        left: auto;
-    }
+  .Group4 {
+    display: block;
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    right: 1px;
+    left: auto;
+  }
   .benres2,
-  .benres ,
+  .benres,
   .Group2 {
     display: none;
   }
@@ -169,7 +172,7 @@
   .conbimg {
     width: 20px;
     height: 20px;
-    position: relative; /* أو يمكنك استخدام absolute حسب الحاجة */
+    position: relative;
     z-index: 10;
   }
 }

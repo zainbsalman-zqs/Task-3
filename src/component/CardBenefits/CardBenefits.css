@@ -1,132 +1,154 @@
-.Cardconter{
-     display: flex;
-     flex-direction: column;
-      gap: 85px;
+.Cardconter {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
 }
 
+.contben {
+  display: flex;
+  flex-direction: column;
+  width: 504px;
+  height: 306px;
+  gap: 20px;
+  border-radius: 12px;
+  border-width: 2px;
+  padding-top: 80px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  border: 2px solid var(--black);
+  position: relative;
+  box-shadow: 6px 6px 0px 2px var(--dark);
+  transition: transform 0.3s ease;
+}
+.contben:hover {
+  transform: translateY(-15px);
+  box-shadow: 10px 10px 20px #ff8d4d;
+}
+.conterimgBen {
+  transition: transform 0.3s ease;
+}
+.contben:hover .conterimgBen {
+  margin-top: 10px;
 
-.contben{
+  border: 2px solid #ff8d4d;
+}
+
+.contben:hover {
+  border: 2px solid #ff8d4d;
+}
+.firstRow {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.secondRow {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.conterimgBen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  /* gap: 10px; */
+  border-radius: 12px;
+  border: 2px solid var(--black);
+  padding: 20px;
+  background-color: var(--PeachBlushLight);
+  position: absolute;
+  top: -50px;
+  left: 30px;
+}
+.texben {
+  font-family: Outfit;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 150%;
+}
+.sibeti {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+}
+@media (max-width: 1480px) {
+  .contben {
+    width: 400px;
+    height: 243px;
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    gap: 16px;
+  }
+
+  .texben {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .sibeti {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0%;
+  }
+}
+
+@media (max-width: 1333px) {
+  .Cardconter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 85px;
+  }
+  .firstRow,
+  .secondRow {
     display: flex;
     flex-direction: column;
-    width: 504px;
-    height: 306px;
-    gap: 20px;
-    border-radius: 12px;
-    border-width: 2px;
+    gap: 72px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Benefits {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .Cardconter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+  }
+  .firstRow,
+  .secondRow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contben {
     padding-top: 80px;
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
-    border: 2px solid var(--black);
-    position: relative;
-    box-shadow: 6px 6px 0px 2px var(--dark);
-    
+  }
 }
-.firstRow{
-    display: flex;
-    gap: 40px; 
-    justify-content: center ;
-}
-.secondRow{
-    display: flex;
-     gap: 40px;
-      justify-content : center; 
-}
-.conterimgBen{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 74px;
-height: 74px;
-/* gap: 10px; */
-border-radius: 12px;
-border: 2px solid var(--black);
-padding: 20px;
-background-color: var(--PeachBlushLight);
-position: absolute;
-top: -50px;
-left: 30px;
-
-}
-.texben{
-    font-family: Outfit;
-    font-weight: 500px;
-    font-size: 20px;
-    line-height: 150%;
-    
-}
-.sibeti{
-    font-family: Raleway;
-font-weight: 700;
-font-size: 28px;
-line-height: 130%;
-}
-@media(max-width : 1769px){
-    .contben{
-        width: 400px;
-height: 243px;
-padding-top: 60px;
-padding-right: 40px;
-padding-bottom: 40px;
-padding-left: 40px;
-gap: 16px;
-
-    }
-
-.texben{
-    font-family: Outfit;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0%;
-
-}
-.sibeti{
-    font-family: Raleway;
-font-weight: 700;
-font-size: 24px;
-line-height: 130%;
-letter-spacing: 0%;
-
-}
-}
-@media(max-width : 1333px){
-    .Cardconter{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-         gap: 85px;
-   }
-    .firstRow ,.secondRow{
-        /* width: 100%; */
-        display: flex;
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-}}
-@media(max-width : 1236px){
-    .Cardconter{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-         gap: 85px;
-   }
-    .firstRow ,.secondRow{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-}
-.contben{
+@media (max-width: 390px) {
+  .contben {
     width: 100%;
-}
+    padding-top: 80px;
+    padding-right: 50px;
 
-}
-@media(max-width : 1333px){
-    .Benefits{
-        margin-left: 0;
-        margin-right: 0;
-    }
+  }
 }

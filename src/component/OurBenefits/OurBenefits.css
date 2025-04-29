@@ -1,116 +1,96 @@
-.Benefits{
-  margin-left: 112px;
-  margin-right:112px ;
-  display:flex ;
-flex-direction: column;
-gap: 100px;
-margin-bottom: 80px;
+.Benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 200px;
 }
-.Ben{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.Ben {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-/* */
 
-.conterinfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-height: 220px;
-gap: 19px;
-
+.conterinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  gap: 19px;
 }
-.zaBen{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 287px;
-    height: 47px;
-    border-radius: 8px;
-    border: 2px solid var(--black);
-    background-color: var(--white);
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+
+.siBeti {
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.clBetx {
+  width: 992px;
+  height: 60px;
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+
+  text-align: center;
+}
+@media (max-width: 1440px) {
+  .clBetx {
+    width: 880px;
+    height: 48px;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+  }
+  .Benefits {
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 1208px) {
+  .conterinfo {
+    width: 358px;
+    height: 202px;
     gap: 10px;
-    
-}
-.siBeti{
-    text-align: center;
+  }
+  .clBetx {
+    width: 358px;
+    height: 96px;
+  }
+  .siBeti {
+    font-size: 38px;
+  }
+  .contben {
+    /* width: 100%; */
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    gap: 16px;
+  }
+  .Benefits {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .sibeti {
     font-family: Raleway;
-font-weight: 700;
-font-size: 58px;
-line-height: 130%;
-letter-spacing: 0%;
-text-align: center;
-
-}
-
-.clBetx{
-    width: 992px;
-height: 60px;
-font-family: Outfit;
-font-weight: 500;
-font-size: 20px;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: center;
-
-    text-align: center;
-}
-@media(max-width : 1769px){
-    .clBetx{
-        width: 880px;
-height: 48px;
-font-family: Outfit;
-font-weight: 500;
-font-size: 16px;
-text-align: center;
-    }
-}
-@media(max-width : 1208px){
-    .conterinfo{
-        width: 358px;
-height: 202px;
-gap: 10px;
-
-    }
-    .clBetx{
-        width: 358px;
-height: 96px;
-
-
-}
-.siBeti{
-    font-size: 
-    38px;
-}
-.contben{
-    width: 100%;
-padding-top: 50px;
-padding-right: 40px;
-padding-bottom: 30px;
-padding-left: 30px;
-gap: 16px;
-
-}
-.Benefits{
-    margin-left: 0;
-    margin-right: 0;
-}
-.sibeti {
-    font-family: Raleway;
-font-weight: 700;
-font-size: 22px;
-line-height: 130%;
-letter-spacing: 0%;
-
-}
-.secondRow ,.firstRow{
-    gap: 68px ;
-}
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0%;
+  }
+  .secondRow,
+  .firstRow {
+    gap: 68px;
+  }
 }

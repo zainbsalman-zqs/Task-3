@@ -1,0 +1,41 @@
+.carosel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+.btncar,
+.rescard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid var(--black);
+  background-color: var(--white);
+  padding: 14px;
+}
+
+.rescardc :hover {
+  transform: scale(1.1);
+  background-color: var(--PeachBlushLight);
+}
+.rescardc {
+  display: none;
+}
+@media (max-width: 1366px) {
+  .carosel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carosel > .btncar {
+    display: none;
+  }
+
+  .rescardc {
+    display: flex;
+  }
+}

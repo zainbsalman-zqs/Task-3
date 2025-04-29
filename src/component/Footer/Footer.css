@@ -76,7 +76,7 @@ footer {
 .list {
   display: flex;
   flex-direction: column;
-  width:226.25px;
+  width: 226.25px;
   gap: 24px;
 }
 
@@ -85,7 +85,7 @@ footer {
   flex-direction: column;
   gap: 14px;
 }
-.list h2{
+.list h2 {
   font-family: Outfit;
   font-weight: 500;
   font-size: 20px;
@@ -100,7 +100,7 @@ footer {
 /*  */
 
 .footerBar {
-width: 100%;
+  width: 100%;
   gap: 30px;
   display: flex;
   flex-direction: column;
@@ -116,54 +116,50 @@ ul {
   align-items: center;
   justify-content: space-between;
   border-bottom: #656567;
-  padding-top:30px ;
-  padding-bottom:30px ;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: 2px solid var(--black);
   border-top: 2px solid var(--black);
-
 }
-.SitePolicies{
-    display: flex;
-    
-height: 27px;
-/* gap: 16px; */
-align-items: center;
-a{
+.SitePolicies {
+  display: flex;
+
+  height: 27px;
+  /* gap: 16px; */
+  align-items: center;
+  a {
     text-decoration: none;
     color: var(--black);
     font-family: Outfit;
-font-weight: 500;
-font-size: 18px;
-line-height: 150%;
-letter-spacing: 0%;
-
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
 }
-
+.line {
+  border-right: 2px solid var(--black);
 }
-.line{
-    border-right: 2px solid var(--black);
-}
-.Policies{
-    display: flex;
-    list-style-type: none;
-    gap: 10px;
-li{
+.Policies {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var( --PeachBlushLight); 
+    background-color: var(--PeachBlushLight);
     width: 56px;
     height: 56px;
     gap: 10px;
     border-radius: 8px;
     border: 2px solid var(--black);
     padding: 16px;
-    a{
-        text-decoration: none;
-        color: var(--black);
+    a {
+      text-decoration: none;
+      color: var(--black);
     }
-}
-
+  }
 }
 .Copyright {
   height: 27px;
@@ -180,121 +176,133 @@ li{
   color: #656567;
 }
 
-@media (max-width:1440px ){
-  Footer{
-top: 5074px;
-left: 50px;
-gap: 40px;
-padding-top: 80px;
-padding-right: 80px;
-padding-bottom: 40px;
-padding-left: 80px;
+@media (max-width: 1440px) {
+  Footer {
+    top: 5074px;
+    left: 50px;
+    gap: 40px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-left: 80px;
   }
-  .infolist{
+  .infolist {
     width: 59.9152%;
   }
-  .logofooters{
-    width: 33.3050%;
+  .logofooters {
+    width: 33.305%;
   }
   .logotext {
     font-size: 16px;
   }
   .iconinfo {
-    li{
-      font-size: 16px;
-    }}
-    .list h2 ,.list a{
+    li {
       font-size: 16px;
     }
-    .iconfinfo{
-      width: 32px;
-height: 32px;
-gap: 10px;
-border-radius: 4px;
-border-width: 2px;
-padding: 6px;
-
+  }
+  .list h2,
+  .list a {
+    font-size: 16px;
+  }
+  .iconfinfo {
+    width: 32px;
+    height: 32px;
+    gap: 10px;
+    border-radius: 4px;
+    border-width: 2px;
+    padding: 6px;
+  }
+  .footerBarSitePolicies {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Policies {
+    li {
+      width: 48px;
+      height: 48px;
+      gap: 10px;
+      padding: 14px;
     }
-    .footerBarSitePolicies{
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-    .Policies {
-      li {
-        width: 48px;
-        height: 48px;
-        gap: 10px;
-        padding: 14px;
-        
-      
-      }
-      }
-      .icpolic{
-        width: 20px;
-height: 20px;
-
-      }
+  }
+  .icpolic {
+    width: 20px;
+    height: 20px;
+  }
 }
-@media (max-width:992px ){
-  Footer{
+@media (max-width: 992px) {
+  Footer {
     display: flex;
     padding-top: 60px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
     gap: 30px;
-  }    
-  .footerconter{
+  }
+  .iconinfo {
+    flex-direction: row;
+  }
+  .footerconter {
     flex-wrap: wrap;
   }
-  .logotext{
+  .logotext {
     text-align: center;
   }
-  .logofooter{
-   justify-content: center;
+  .logofooter {
+    justify-content: center;
   }
-  .logofooters{
+  .logofooters {
     text-align: center;
     width: 100%;
   }
- .list{width: 44.97%;}
-  .infolist{
+  .list {
+    width: 44.97%;
+  }
+  .infolist {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     row-gap: 50px;
-    column-gap: 30px; 
+    column-gap: 30px;
   }
   .footerBarSitePolicies {
     display: flex;
     flex-wrap: wrap;
-   justify-content: center;
-   gap: 20px;
+    justify-content: center;
+    gap: 20px;
   }
   .SitePolicies {
-    a{
-      font-size: 14px
-    }}
-    .footerBarSitePolicies{
-      padding-top: 16px;
-      padding-bottom: 16px;
+    a {
+      font-size: 14px;
     }
-    
+  }
+  .footerBarSitePolicies {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
-@media (max-width:390px ){
-  .infolist{
-    width: 298px;
+
+@media (max-width: 694px) {
+  .infolist {
+    width: 100%;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    /* row-gap: 50px;
-    column-gap: 30px;  */
-    order: 2;
+    gap: 20px;
   }
-  .list{
+  .list:nth-child(2) {
+    order: 1;
+  }
+  .list:nth-child(3) {
+    order: 4;
+  }
+  .list {
     display: flex;
     width: 134px;
     gap: 20px;
-    
   }
 
+  .iconinfo {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }

@@ -9,8 +9,8 @@ function Frequently () {
          <section className='Freqpg'>
               <div className='Freq'>
               <Parghraf
-              Parghrafcont='zaFreq'
-              Parghraf='Freqp'
+              Parghrafcont='zaconter'
+              Parghraf=''
               Parghraftext="Solutions For The Doubts"
               />
             <Title

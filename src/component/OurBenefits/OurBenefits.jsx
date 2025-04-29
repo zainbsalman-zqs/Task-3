@@ -8,8 +8,8 @@ export default function OurBenefits() {
     <section className='Benefits'>
       <div className='Ben'>
       <Parghraf
-      Parghrafcont='zaBen'
-      Parghraf='psBen'
+      Parghrafcont='zaconter'
+      Parghraf=''
       Parghraftext="Children Deserve Bright Future"
       />
     <Title

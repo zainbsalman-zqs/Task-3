@@ -51,16 +51,7 @@ const Footer = ({
           );
         })}
       </ul>
-
    </div>
-
-
-
-
-
-
-{/*  */}
-   
         <div className="footerBar"> 
           <div className="footerBarSitePolicies">
           <ul className="SitePolicies">

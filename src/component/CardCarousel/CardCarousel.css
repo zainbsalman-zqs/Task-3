@@ -1,0 +1,76 @@
+.cardcarou {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.contcar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 26.72%;
+  height: auto;
+  gap: 30px;
+  border-radius: 12px;
+  border: 2px solid var(--black);
+  padding: 50px;
+  background-color: var(--white);
+  box-shadow: 6px 6px 0 2px var(--dark);
+}
+
+.texcar:hover {
+  transform: translateY(-15px);
+  box-shadow: 10px 10px 20px var(--Orange);
+  border: var(--Orang);
+}
+.caro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.texcar {
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sicarti {
+  font-family: Outfit;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.btnres {
+  display: block;
+}
+@media (max-width: 1700px) {
+  .cardcarou {
+  }
+  .contcar {
+    width: 26.64%;
+    height: auto;
+    gap: 24px;
+  }
+  .texcar {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .btnres {
+    display: none;
+  }
+}
+@media (max-width: 1412px) {
+  .contcar {
+    width: 358px;
+    height: auto;
+    gap: 24px;
+  }
+}
