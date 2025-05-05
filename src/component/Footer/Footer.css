@@ -8,6 +8,7 @@ footer {
   padding: 100px 113px 40px 113px;
   box-shadow: 6px 6px 0px 2px var(--dark);
   background-color: var(--white);
+  margin-bottom: 50px;
 }
 .footerconter {
   width: 100%;

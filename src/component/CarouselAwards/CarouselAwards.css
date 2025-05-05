@@ -2,6 +2,18 @@
   display: flex;
   flex-direction: column;
    gap: 100px;
-   margin-bottom: 24vh;
+   margin-bottom: 22vh;
+}
+@media (max-width: 1440px) {
+  .CarouselAwards{
+  gap: 80px;
+  margin-bottom: 16vh;
+  }
+}
+@media (max-width: 390px){
+  .CarouselAwards{
+      gap: 50px;
+      margin-bottom: 10vh;
+      }
 }
   

@@ -4,3 +4,15 @@
      gap: 100px;
      margin-bottom: 22vh;
 }
+@media (max-width: 1440px) {
+    .OurSpecial{
+    gap: 80px;
+    margin-bottom: 16vh;
+    }
+}
+@media (max-width: 390px){
+    .OurSpecial{
+        gap: 50px;
+        margin-bottom: 10vh;
+        }
+}
