@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Carousel.css";
 import GoArrowRight from "../../../public/assets/img/GoArrowRight.png";
 import CardCarousel from "../CardCarousel/CardCarousel";
 import GoArrowLift from "../../../public/assets/img/GoArrowLift.png";
+import { CardCarouseldata } from '../Data/Carouseldata';
 
 function Carousel() {
+
   return (
     <div className="carosel">
-      <button className="btncar">
+      <button className="btncar"  >
         <img src={GoArrowLift} alt="" />
       </button>
-      <CardCarousel />
-      <button className="btncar">
+      <CardCarousel/>
+      <button className="btncar" >
         <img src={GoArrowRight} alt="" />
       </button>
 

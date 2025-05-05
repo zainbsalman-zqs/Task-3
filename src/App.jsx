@@ -1,6 +1,10 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./component/NavBar/NavBar";
-import logo from "./../public/assets/img/shape-14.png";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Academics from "./Pages/Academics";
+import TopBanner from "./component/Top Banner/TopBanner";
 import Footer from "./component/Footer/Footer";
 import { FaEnvelope } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
@@ -8,35 +12,29 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa6";
-import TopBanner from "./component/Top Banner/TopBanner";
-import Hero from "./component/Hero/Hero";
-import OurBenefits from "./component/OurBenefits/OurBenefits";
-import Frequently from "./component/Frequently/Frequently ";
-import Navigate from "./component/Navigate/Navigate";
-import Testimonials from "./component/Testimonials/Testimonials";
-
+import logo from "./../public/assets/img/shape-14.png";
 function App() {
+  // const rows = [4, 3, 2, 1];
   return (
-    <>
-   <TopBanner/>
+        <>
+         <TopBanner/>
       <NavBar
-        logo={logo}
-        text="Little Learners"
-        items={[
-          { link: "#home", content: "Home"  },
-          { link: "#about Us", content: "About Us" },
-          { link: "#academics", content: "Academics" },
-          {link:  "#admissions" , content : "Admissions"} ,
-           {link: "#student Life" , content : "Student Life"} , 
-        ]}
-        btn="Contact"
-      />
-      <Hero />
-      <OurBenefits/>
-      <Testimonials/>
-      <Frequently/>
-      <Navigate/>
-      <Footer logo={logo}
+         logo={logo}
+         text="Little Learners"
+         items={[
+           { link: "/", content: "Home"  },
+           { link: "/about", content: "About Us" },
+           { link: "/academics", content: "Academics" },
+           {link:  "#admissions" , content : "Admissions"} ,
+            {link: "#student Life" , content : "Student Life"} , 
+         ]}
+         btn="Contact"/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>}/>
+        <Route path="/academics" element={<Academics/>} />
+        </Routes>
+   <Footer logo={logo}
       title="Little Learners"
         text="We believe in the power of play to foster creativity, problem-solving skills, and imagination."
         info={[
@@ -81,8 +79,9 @@ function App() {
       Copyright=" Copyright © [2023] Little Learners Academy. All rights reserved."
        />
 
-   
     </>
+   
+
   );
 }
 

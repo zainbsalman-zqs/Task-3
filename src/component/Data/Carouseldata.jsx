@@ -72,7 +72,8 @@ export  const CardCarouseldata=[{
 //       text: "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers.",
 //       textclass: "texcar",
 //       conter: 'contcar',
-// },{
+// },
+// {
 //     conterimg: 'CardCarfirst' ,
 //      imgs: imgcar1,
 //      caro :'caro',

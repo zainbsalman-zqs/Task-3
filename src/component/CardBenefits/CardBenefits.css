@@ -1,7 +1,10 @@
 .Cardconter {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 85px;
+  width: 100%;
 }
 
 .contben {
@@ -74,7 +77,12 @@
   font-size: 28px;
   line-height: 130%;
 }
-@media (max-width: 1480px) {
+@media (max-width: 1781px) {
+  .Cardconter {
+    gap: 68px;
+
+  }
+  
   .contben {
     width: 400px;
     height: 243px;
@@ -86,19 +94,14 @@
   }
 
   .texben {
-    font-family: Outfit;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0%;
   }
   .sibeti {
-    font-family: Raleway;
-    font-weight: 700;
     font-size: 24px;
-    line-height: 130%;
-    letter-spacing: 0%;
   }
+  /* .conterimgBen{
+    top: -29px;
+  } */
 }
 
 @media (max-width: 1333px) {

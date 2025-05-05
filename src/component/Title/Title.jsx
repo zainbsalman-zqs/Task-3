@@ -18,8 +18,9 @@ export default function Title({ title, text, size,conter,conterimg ,imgs ,textcl
           <img src={imgAfter} alt="" />
         </div>
       )}
-   
+    {text && (
       <p className={`${textclass}`}>{text }</p>
+    )}
     </div>
     </>
   )

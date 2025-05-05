@@ -4,88 +4,22 @@
   gap: 100px;
   margin-bottom: 200px;
 }
-.Freq {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.zaconter{
-  display: flex;
-  gap: 10px;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  border-radius: 8px;
-  border: 2px solid var(--black);
-  
-      font-family: Outfit;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 150%;
-      letter-spacing: 0%;
-      text-align: center;
-  }
-  @media (max-width: 390px){
-      .zaconter{
-          font-size: 16px;
-      }
-  }
-  @media (max-width: 390px){
-      .zaconter{
-          gap: 10px;
-          padding-top: 8px;
-          padding-right: 14px;
-          padding-bottom: 8px;
-          padding-left: 14px;
-          font-size: 14px;
-            }
-  } 
-
-.siFrti {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 130%;
-  text-align: center;
-}
-.clFrtx {
-  font-family: Outfit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  text-align: center;
-}
-.conterinfo {
-  max-width: 992px;
-  min-width: 390px;
-}
 
 .conimgfq:hover {
   transform: scale(1.1);
   background-color: var(--PeachBlushLight);
 }
 @media (max-width: 1440px) {
-  .conterinfo {
-    max-width: 85%;
-  }
   .Freqpg {
     margin-bottom: 150px;
   }
 }
 @media (max-width: 1208px) {
-  .Freq {
-    gap: 10px;
-  }
+
   .Freqpg {
     gap: 50px;
   }
-  .siFrti {
-    font-weight: 700;
-    font-size: 38px;
-    text-align: center;
-  }
+  
   .Freqpg {
     margin-bottom: 80px;
   }

@@ -1,0 +1,6 @@
+.OurMission{
+   display: flex;
+   flex-direction: column;
+    gap: 100px;
+    margin-bottom: 50vh;
+}

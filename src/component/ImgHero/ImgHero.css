@@ -1,0 +1,55 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .row {
+    display: flex;
+flex-direction: column;
+
+  }
+  
+  .pattern {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color:var( --Peach);
+    clip-path: polygon(25px 0px, 100% 0px, 100% 51%, 50% 100%, 0px 100%, 0px 50%);
+  }
+  
+  .pattern1 {
+    width: 25px;
+    height: 25px;
+    background-color: #1E1E1E;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+@media (max-width: 745px){
+  .wrapper{
+    width: 100px;
+height: 100px;
+
+}
+.pattern{
+    width: 25.004295349121094px;
+height: 24.99570655822754px;
+clip-path: polygon(11px 0px, 100% 0px, 100% 51%, 50% 100%, 0px 100%, 0px 50%);
+}
+.pattern1{
+    width: 12.497854232788086px;
+height: 12.49785327911377px;
+
+
+}
+
+
+
+
+
+}

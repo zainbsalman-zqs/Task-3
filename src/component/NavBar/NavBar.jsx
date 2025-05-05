@@ -2,6 +2,7 @@ import React from "react";
 import "./NavBar.css";
 import menunav from "./../../../public/assets/img/menunav.svg";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 const NavBar = ({ logo, text, items, btn }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -29,8 +30,8 @@ const NavBar = ({ logo, text, items, btn }) => {
                   padding: "20px  34px",
                 }}
               >
-                <a href={item?.link}>{item?.content}</a>
-              </li>
+      <Link to={item?.link}>{item?.content}</Link>    
+                </li>
             );
           })}
         </ul>

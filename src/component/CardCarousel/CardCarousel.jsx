@@ -2,10 +2,10 @@ import React from 'react'
 import './CardCarousel.css'
 import Title from '../Title/Title'
 import {CardCarouseldata} from '../Data/Carouseldata'
-import {useState} from 'react';
 function CardCarousel() {
 
     return (
+      <div className="cardcarou-wrapper">
     <div className='cardcarou'>
     {CardCarouseldata.map((card, index) => (
              <Title
@@ -21,6 +21,7 @@ function CardCarousel() {
                text={card.text}
                textclass={card.textclass}
              />))}
+    </div>
     </div>
   )
 }

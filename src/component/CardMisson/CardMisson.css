@@ -1,0 +1,108 @@
+.contCardMisson {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.Missoncont {
+  width: 40%;
+  max-width: 768px;
+  min-width: 600px;
+
+  height: auto;
+  min-height: 350px;
+  max-height: 410px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  border-radius: 12px;
+  border: 2px solid var(--black);
+  padding: 60px;
+  background-color: var(--white);
+  box-shadow: 6px 6px 0px 2px var(--black);
+}
+.conttitlimg {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 10%;
+    max-width: 80px;
+    min-width: 60px;
+
+    height: auto;
+    max-height: 80px;
+    min-height: 60px;
+  }
+}
+.Missontitl {
+  font-family: Raleway;
+  font-weight: 700px;
+  font-size: 48px;
+  line-height: 130%;
+}
+
+.Missonpa {
+  font-family: Outfit;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 150%;
+}
+@media (max-width: 1440px) {
+  .Missoncont {
+    width: 43%;
+    max-width: 620px;
+    min-width: 500px;
+
+    height: auto;
+    max-height: 330px;
+    min-height: 280px;
+    gap: 50px;
+
+    padding: 50px;
+  }
+  .Missontitl {
+    font-size: 38px;
+  }
+  .Missonpa {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1164px) {
+  .Missoncont {
+    width: 50%;
+    max-width: 358px;
+    min-width: 280px;
+    height: auto;
+    min-height: 386px;
+    gap: 40px;
+    padding: 40px;
+  }
+  .Missontitl {
+    font-size: 32px;
+  }
+  .Missonpa {
+    font-size: 14px;
+  }
+  .conttitlimg img {
+    width: 60px;
+    height: 60px;
+  }
+  .Missontitl {
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .contCardMisson {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .Missoncont {
+    width: 90%;
+    max-width: 358px;
+    min-width: 280px;
+  }
+}

@@ -1,14 +1,21 @@
+.cardcarou-wrapper {
+  overflow: hidden;
+  width: 1376px;
+}
+
 .cardcarou {
   display: flex;
-  justify-content: center;
+  flex-direction: row; 
+  justify-content: flex-start; 
   gap: 50px;
+  
 }
 .contcar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 26.72%;
-  height: auto;
+  width: 425.33px;
+  height: 462px;
   gap: 30px;
   border-radius: 12px;
   border: 2px solid var(--black);

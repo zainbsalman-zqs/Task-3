@@ -1,0 +1,6 @@
+.OurSpecial{
+    display: flex;
+    flex-direction: column;
+     gap: 100px;
+     margin-bottom: 22vh;
+}
